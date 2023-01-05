@@ -16,6 +16,7 @@ package clases;
 	public void setOceano(String oceano) {
 		this.oceano = oceano;
 	}
+	
 	@Override
 	public  void parir() {
 		System.out.println("Ha parido una ballena");

@@ -15,10 +15,12 @@ public boolean isEnreserva() {
 public void setEnreserva(boolean enreserva) {
 	this.enreserva = enreserva;
 }
+
 @Override
 public  void parir() {
 	System.out.println("Ha parido un ornitorrinco");
 }
+
 @Override
 public String toString() {
 	

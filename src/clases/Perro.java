@@ -14,10 +14,12 @@ public String getRaza() {
 public void setRaza(String raza) {
 	this.raza = raza;
 }
+
 @Override
 public  void parir() {
 	System.out.println("Ha parido un perro");
 }
+
 @Override
 public String toString() {
 	
