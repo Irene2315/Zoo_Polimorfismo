@@ -21,7 +21,7 @@ public  void parir() {
 @Override
 public String toString() {
 	
-	return super.toString() + "Raza: " + this.getRaza();
+	return super.toString() + " Raza: " + this.getRaza();
 }
 
 

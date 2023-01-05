@@ -22,6 +22,6 @@ public  void parir() {
 @Override
 public String toString() {
 	
-	return super.toString() + "Vidas: " + this.getVidas();
+	return super.toString() + " Vidas: " + this.getVidas();
 }
 }

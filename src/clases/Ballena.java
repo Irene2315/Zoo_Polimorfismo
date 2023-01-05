@@ -23,7 +23,7 @@ package clases;
 	@Override
 	public String toString() {
 		
-		return super.toString() + "Oceano: " + this.getOceano();
+		return super.toString() + " Oceano: " + this.getOceano();
 	}
 	}
 

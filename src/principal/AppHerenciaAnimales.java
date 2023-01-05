@@ -1,4 +1,5 @@
 package principal;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,6 +12,8 @@ import clases.Perro;
 public class AppHerenciaAnimales {
 	
 	private static Scanner Scanner;
+	
+	
 
 	public static void run() {
 			
@@ -83,8 +86,8 @@ public class AppHerenciaAnimales {
 			
 		} while (opcion_menu != SALIR);
 		scan.close();
-	
 	}
+	
 		
 
 	public static Perro crearPerro() {
@@ -104,7 +107,7 @@ public class AppHerenciaAnimales {
 		Perro perro = new Perro(clase_1);
 		perro.setNumPatas(numPatas_1);
 		perro.setRaza(raza_1);
-		System.out.println(perro);
+		
 		
 		return perro;
 	} 

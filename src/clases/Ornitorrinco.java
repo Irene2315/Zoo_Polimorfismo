@@ -22,6 +22,6 @@ public  void parir() {
 @Override
 public String toString() {
 	
-	return super.toString() + "En reserva: " + this.isEnreserva();
+	return super.toString() + " En reserva: " + this.isEnreserva();
 }
 }

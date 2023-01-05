@@ -7,7 +7,7 @@ public class Loro extends Animal{
 	}
 	@Override
 	public  void parir() {
-		System.out.println("Ha parido un loro");
+		System.out.println(" Ha parido un loro");
 	}
 	
 }
