@@ -72,10 +72,10 @@ public class AppHerenciaAnimales {
 				animales.add(loro);
 				break;
 			case TODOS:
-				Todos(animales);
+				todos(animales);
 				break;
 			case PARIR:
-				Parir(animales);
+				parir(animales);
 				break;
 			case SALIR:
 				System.out.println("ADIOS");
@@ -198,13 +198,13 @@ public class AppHerenciaAnimales {
 		
 		return ballena;
 	}
-	private static void Todos(ArrayList <Animal> animales) {
+	public static void todos(ArrayList <Animal> animales) {
 		
 		for(int i = 0; i < animales.size(); i++) {
             System.out.println(animales.get(i));
 		}
 }
-	public static void Parir(ArrayList <Animal> animales) {
+	public static void parir(ArrayList <Animal> animales) {
 	
 		for (Animal animal : animales) {
 			animal.parir();
