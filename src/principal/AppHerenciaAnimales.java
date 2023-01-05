@@ -85,18 +85,7 @@ public class AppHerenciaAnimales {
 		scan.close();
 	
 	}
-		private static void Todos(ArrayList <Animal> animales) {
-	
-			for(int i = 0; i < animales.size(); i++) {
-	            System.out.println(animales.get(i));
-			}
-	}
-		public static void Parir(ArrayList <Animal> animales) {
 		
-			for (Animal animal : animales) {
-				animal.parir();
-		}
-	}
 
 	public static Perro crearPerro() {
 		Scanner  = new Scanner(System.in);
@@ -108,7 +97,7 @@ public class AppHerenciaAnimales {
 		System.out.println("Que clase es?");
 		clase_1 = Scanner.nextLine();
 		System.out.println("Cuantas patas tiene?");
-		numPatas_1 = Integer.parseInt(Scanner.nextLine());	
+		numPatas_1 = Scanner.nextInt();	
 		System.out.println("De que raza es?");
 		raza_1 = Scanner.nextLine();
 			
@@ -206,6 +195,18 @@ public class AppHerenciaAnimales {
 		
 		return ballena;
 	}
+	private static void Todos(ArrayList <Animal> animales) {
+		
+		for(int i = 0; i < animales.size(); i++) {
+            System.out.println(animales.get(i));
+		}
+}
+	public static void Parir(ArrayList <Animal> animales) {
+	
+		for (Animal animal : animales) {
+			animal.parir();
+	}
+}
 	
 	
 }	
