@@ -1,6 +1,6 @@
 package clases;
 
-public class Animal {
+public abstract class Animal {
 	
 		private String clase;
 		private int numPatas;
