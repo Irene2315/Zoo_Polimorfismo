@@ -8,7 +8,7 @@ public abstract class Animal {
 		Animal(){
 			
 		}
-
+		
 		public Animal(String clase) {
 			
 			this.clase = clase;
@@ -27,18 +27,15 @@ public abstract class Animal {
 			return numPatas;
 		}
 
-		
-		
+			
 		public void setNumPatas(int numPatas) {
 			this.numPatas = numPatas;
 		}
-		
 		
 		public void parir(){
 			System.out.println("Ha parido un animal");
 		}
 
-		@Override
 		public String toString() {
 			return " Animal: " + this.clase + " Numero Patas: " + this.numPatas ;
 		}
